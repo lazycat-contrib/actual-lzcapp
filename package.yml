@@ -1,0 +1,15 @@
+package: community.lazycat.app.actual
+version: 26.10.0
+name: Actual
+description: "A local-first personal finance app"
+min_os_version: 1.5.0
+author: actualbudget
+license: MIT
+homepage: https://github.com/actualbudget/actual
+locales:
+  zh:
+    name: "Actual"
+    description: "本地优先的个人财务管理应用：预算、账户与报表，端到端同步，数据完全自托管"
+  en:
+    name: "Actual"
+    description: "A local-first personal finance app with budgeting and cross-device sync"
