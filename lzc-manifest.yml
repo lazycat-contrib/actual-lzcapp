@@ -9,8 +9,8 @@ application:
       backend: http://actual:5006/
 services:
   actual:
-    # upstream: actualbudget/actual-server:26.10.0
-    image: docker.1ms.run/actualbudget/actual-server:26.10.0
+    # upstream: actualbudget/actual-server:26.11.0
+    image: docker.1ms.run/actualbudget/actual-server:26.11.0
     environment:
       - TZ=Asia/Shanghai
       # 数据目录（预算文件 + 账号库）
